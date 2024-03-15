@@ -176,6 +176,7 @@ checkoutBtn.addEventListener("click", function () {
   );
 
   cart = [];
+  addressInput.value = "";
   updateCartModal();
 });
 
